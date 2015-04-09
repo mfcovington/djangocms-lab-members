@@ -73,6 +73,23 @@ STATICFILES_DIRS = (
 )
 SITE_ID = 1
 
+# For filer's Django 1.7 compatibility
+MIGRATION_MODULES = {
+    'filer': 'filer.migrations_django',
+}
+
+# For easy_thumbnails to support retina displays (recent MacBooks, iOS)
+THUMBNAIL_HIGH_RESOLUTION = True
+THUMBNAIL_QUALITY = 95
+THUMBNAIL_PROCESSORS = (
+    'easy_thumbnails.processors.colorspace',
+    'easy_thumbnails.processors.autocrop',
+    'filer.thumbnail_processors.scale_and_crop_with_subject_location',
+    'easy_thumbnails.processors.filters',
+)
+THUMBNAIL_PRESERVE_EXTENSIONS = ('png', 'gif')
+THUMBNAIL_SUBDIR = 'versions'
+
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
@@ -138,7 +155,11 @@ INSTALLED_APPS = (
     'djangocms_teaser',
     'djangocms_video',
     'reversion',
-    'mysite'
+    'mysite',
+    'lab_members',
+    'easy_thumbnails',
+    'filer',
+    'mptt',
 )
 
 LANGUAGES = (
