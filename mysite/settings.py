@@ -157,6 +157,7 @@ INSTALLED_APPS = (
     'reversion',
     'mysite',
     'lab_members',
+    'cms_lab_members',
     'easy_thumbnails',
     'filer',
     'mptt',
