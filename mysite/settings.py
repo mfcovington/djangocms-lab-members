@@ -73,11 +73,6 @@ STATICFILES_DIRS = (
 )
 SITE_ID = 1
 
-# For filer's Django 1.7 compatibility
-MIGRATION_MODULES = {
-    'filer': 'filer.migrations_django',
-}
-
 # For easy_thumbnails to support retina displays (recent MacBooks, iOS)
 THUMBNAIL_HIGH_RESOLUTION = True
 THUMBNAIL_QUALITY = 95
@@ -213,5 +208,6 @@ MIGRATION_MODULES = {
     'djangocms_link': 'djangocms_link.migrations_django',
     'djangocms_picture': 'djangocms_picture.migrations_django',
     'djangocms_teaser': 'djangocms_teaser.migrations_django',
-    'djangocms_video': 'djangocms_video.migrations_django'
+    'djangocms_video': 'djangocms_video.migrations_django',
+    'filer': 'filer.migrations_django',
 }
