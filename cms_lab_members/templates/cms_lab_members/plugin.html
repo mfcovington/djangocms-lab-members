@@ -1,4 +1,8 @@
-{% load thumbnail cms_tags %}
+{% load thumbnail cms_tags sekizai_tags staticfiles %}
+
+{% addtoblock "css" strip %}
+  <link rel="stylesheet" type="text/css" href="{% static 'cms_lab_members/plugins.css' %}">
+{% endaddtoblock %}
 
 <div class="scientist-plugin">
   <div class="row text-center">
@@ -11,7 +15,7 @@
       {% endif %}
 
       {# <h2>{% render_model instance.scientist "full_name" %}</h2> #}
-      <h2>{{ instance.scientist.full_name }}</h2>
+      <h4>{{ instance.scientist.full_name }}</h4>
     </a>
 
   </div>
