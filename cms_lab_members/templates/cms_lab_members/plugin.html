@@ -6,6 +6,7 @@
 
 <div class="scientist-plugin">
   <div class="row text-center">
+    <div class="image-container">
 
     <a href="{% url 'lab_members:scientist_detail' instance.scientist.slug %}">
       {% if instance.scientist.photo %}
@@ -14,8 +15,11 @@
         <img src="http://placehold.it/300x300" alt={{ instance.scientist.full_name }}>
       {% endif %}
 
-      <h4>{{ instance.scientist.full_name }}</h4>
+      <div class="gradient-overlay">
+        <h4 class="text-overlay">{{ instance.scientist.full_name }}</h4>
+      </div>
     </a>
 
+    </div>
   </div>
 </div>
