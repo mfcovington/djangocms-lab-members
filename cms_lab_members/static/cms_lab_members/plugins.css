@@ -30,6 +30,10 @@
   border-radius: 5px;
   top: 0;
 }
+.scientist-plugin .gradient-overlay:hover {
+  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
+}
 .scientist-plugin .text-overlay {
   margin-bottom: 10px;
 }
