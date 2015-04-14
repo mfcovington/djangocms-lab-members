@@ -48,7 +48,7 @@ setup(
     packages=['cms_lab_members'],
     include_package_data=True,
     license='BSD License',
-    description='A Django app to display lab personnel and information about them.  It extends the default with django CMS-specific features',
+    description='A Django app to extend django-lab-members with django CMS-specific features',
     long_description=README,
     # url='http://www.example.com/',
     author='Michael F. Covington',

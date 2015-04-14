@@ -1,6 +1,6 @@
 # Lab Members
 
-CMS Lab Members is a Django app to display lab personnel and information about them. It extends the default [Lab Members Django app](https://github.com/mfcovington/django-lab-members) with django CMS-specific features.
+CMS Lab Members is A Django app to extend [django-lab-members](https://github.com/mfcovington/django-lab-members) with django CMS-specific features.
 
 <!-- Detailed documentation is in the "docs" directory. -->
 
