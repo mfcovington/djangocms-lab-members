@@ -16,7 +16,12 @@
         {% endif %}
 
         <div class="gradient-overlay">
-          <h4 class="text-overlay">{{ instance.scientist.full_name }}</h4>
+          <div class="text-overlay">
+            <p class="text-overlay-name">{{ instance.scientist.full_name }}</p>
+            {% if instance.scientist.title != None %}
+              <p class="text-overlay-title">{{ instance.scientist.title }}</p>
+            {% endif %}
+          </div>
         </div>
       </a>
 
