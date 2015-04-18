@@ -1,4 +1,4 @@
-# Lab Members
+# CMS Lab Members
 
 CMS Lab Members is A Django app to extend [django-lab-members](https://github.com/mfcovington/django-lab-members) with django CMS-specific features.
 
@@ -58,6 +58,6 @@ CMS Lab Members is A Django app to extend [django-lab-members](https://github.co
 
 - Start the development server (`python manage.py runserver`) and visit http://127.0.0.1:8000/
 
-- Create a CMS page and attachethe `Lab Members App` under `Advanced Settings` for the page.
+- Create a CMS page and attach the `Lab Members App` under `Advanced Settings` for the page.
 
 *Version 0.1.1*
