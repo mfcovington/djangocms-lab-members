@@ -9,6 +9,7 @@ from cms_lab_members.models import ScientistPluginModel
 
 class ScientistPlugin(CMSPluginBase):
     model = ScientistPluginModel
+    module = "Lab Plugins"
     name = _("Scientist Plugin")
     render_template = "cms_lab_members/plugin.html"
 
