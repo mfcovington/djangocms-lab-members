@@ -44,7 +44,7 @@ install_requires = [
 
 setup(
     name='djangocms-lab-members',
-    version='0.1.1',
+    version='0.1.2',
     packages=['cms_lab_members'],
     include_package_data=True,
     license='BSD License',
