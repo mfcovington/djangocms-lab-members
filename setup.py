@@ -50,7 +50,7 @@ setup(
     license='BSD License',
     description='A Django app to extend django-lab-members with django CMS-specific features',
     long_description=README,
-    # url='http://www.example.com/',
+    url='https://github.com/mfcovington/djangocms-lab-members',
     author='Michael F. Covington',
     author_email='mfcovington@gmail.com',
     classifiers=[
