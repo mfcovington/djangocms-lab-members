@@ -1,9 +1,10 @@
 from django.contrib import admin
+from cms.admin.placeholderadmin import PlaceholderAdminMixin
 
 from lab_members.models import Scientist
 from lab_members.admin import ScientistAdmin
 
-class CMSScientistAdmin(ScientistAdmin):
+class CMSScientistAdmin(PlaceholderAdminMixin, ScientistAdmin):
     fieldsets = [
         ScientistAdmin.fieldset_basic,
         ScientistAdmin.fieldset_advanced,
