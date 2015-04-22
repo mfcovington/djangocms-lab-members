@@ -44,13 +44,13 @@ install_requires = [
 
 setup(
     name='djangocms-lab-members',
-    version='0.1.2',
+    version='0.1.3',
     packages=['cms_lab_members'],
     include_package_data=True,
     license='BSD License',
     description='A Django app to extend django-lab-members with django CMS-specific features',
     long_description=README,
-    # url='http://www.example.com/',
+    url='https://github.com/mfcovington/djangocms-lab-members',
     author='Michael F. Covington',
     author_email='mfcovington@gmail.com',
     classifiers=[
