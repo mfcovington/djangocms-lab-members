@@ -18,6 +18,7 @@ CMS Lab Members is A Django app to extend [django-lab-members](https://github.co
             'easy_thumbnails',
             'filer',
             'mptt',
+            'friendlytagloader',
         )
         ```
 
