@@ -24,6 +24,15 @@ class LabMembersMenu(CMSAttachMenu):
                 scientist.slug
             )
             nodes.append(node)
+
+        if Scientist.objects.filter(current=False):
+            node = NavigationNode(
+                'Lab Alumni',
+                reverse('lab_members:scientist_list') + '#lab-alumni',
+                scientist.slug
+            )
+            nodes.append(node)
+
         return nodes
 
 menu_pool.register_menu(LabMembersMenu)
