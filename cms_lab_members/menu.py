@@ -17,7 +17,7 @@ class LabMembersMenu(CMSAttachMenu):
         This method is used to build the menu tree.
         """
         nodes = []
-        for scientist in Scientist.objects.filter(current=True):
+        for scientist in Scientist.objects.filter(current=True, visible=True):
             node = NavigationNode(
                 scientist.full_name,
                 reverse('lab_members:scientist_detail', args=(scientist.slug,)),
@@ -25,7 +25,7 @@ class LabMembersMenu(CMSAttachMenu):
             )
             nodes.append(node)
 
-        if Scientist.objects.filter(current=False):
+        if Scientist.objects.filter(current=False, visible=True):
             node = NavigationNode(
                 'Lab Alumni',
                 reverse('lab_members:scientist_list') + '#lab-alumni',
