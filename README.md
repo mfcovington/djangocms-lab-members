@@ -51,6 +51,45 @@ CMS Lab Members is A Django app to extend [django-lab-members](https://github.co
         THUMBNAIL_SUBDIR = 'versions'
         ```
 
+    - Pre-populate placeholder content for research/personal interests and sidebar:
+
+        ```python
+        # Pre-populate placeholder content
+        CMS_PLACEHOLDER_CONF = {
+            ...
+            'research interests': {
+                'default_plugins': [
+                    {
+                        'plugin_type': 'TextPlugin',
+                        'values': {
+                            'body':"<p><em>[Enter 'Edit Mode' and add your research interests here...]</em></p>",
+                        },
+                    },
+                ],
+            },
+            'personal interests': {
+                'default_plugins': [
+                    {
+                        'plugin_type': 'TextPlugin',
+                        'values': {
+                            'body':"<p><em>[Enter 'Edit Mode' and add your personal interests here...]</em></p>",
+                        },
+                    },
+                ],
+            },
+            'scientist sidebar': {
+                'default_plugins': [
+                    {
+                        'plugin_type': 'TextPlugin',
+                        'values': {
+                            'body':"<p><em>[Enter 'Edit Mode' and add sidebar content here...]</em></p>",
+                        },
+                    },
+                ],
+            },
+        }
+        ``
+
 - Run `python manage.py makemigrations lab_members` to create the lab_members migrations.
 
 - Run `python manage.py makemigrations cms_lab_members` to create the cms_lab_members migrations.
@@ -61,4 +100,4 @@ CMS Lab Members is A Django app to extend [django-lab-members](https://github.co
 
 - Create a CMS page and attach the `Lab Members App` under `Advanced Settings` for the page.
 
-*Version 0.1.4*
+*Version 0.1.5*

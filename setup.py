@@ -17,7 +17,7 @@ install_requires = [
     "django-cms==3.1.0.b1",
     "django-filer==0.9.9",
     'django-friendly-tag-loader==1.2',
-    "django-lab-members>=0.2.0,<0.3.0",
+    "django-lab-members>=0.2.4,<0.3.0",
     "django-mptt==0.6.1",
     "django-polymorphic==0.6.1",
     "django-reversion==1.8.5",
@@ -45,7 +45,7 @@ install_requires = [
 
 setup(
     name='djangocms-lab-members',
-    version='0.1.4',
+    version='0.1.5',
     packages=['cms_lab_members'],
     include_package_data=True,
     license='BSD License',

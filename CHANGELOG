@@ -1,5 +1,11 @@
 Revision history for Django app djangocms-lab-members
 
+0.1.5 2015-05-08
+
+  - Add 'Lab Alumni' node to dropdown menu
+  - Update README to pre-populate placeholder content via settings
+  - Minor behind-the-scenes improvements
+
 0.1.4 2015-05-01
 
   - Limit dropdown menu to current lab members
