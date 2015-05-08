@@ -7,6 +7,7 @@ from lab_members.admin import ScientistAdmin
 class CMSScientistAdmin(PlaceholderAdminMixin, ScientistAdmin):
     fieldsets = [
         ScientistAdmin.fieldset_basic,
+        ScientistAdmin.fieldset_website,
         ScientistAdmin.fieldset_advanced,
     ]
 
