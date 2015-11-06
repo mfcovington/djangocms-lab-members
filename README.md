@@ -84,9 +84,9 @@ CMS Lab Members is A Django app to extend [django-lab-members](https://github.co
         }
         ```
 
-- Run `python manage.py makemigrations lab_members` to create the lab_members migrations.
-
 - Run `python manage.py makemigrations cms_lab_members` to create the cms_lab_members migrations.
+
+- Run `python manage.py makemigrations lab_members` to create the lab_members migrations.
 
 - Run `python manage.py migrate` to create the lab_members models.
 
