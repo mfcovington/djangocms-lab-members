@@ -9,7 +9,7 @@ from cms.toolbar.items import Break, SubMenu
 from cms.cms_toolbar import ADMIN_MENU_IDENTIFIER, ADMINISTRATION_BREAK
 
 @toolbar_pool.register
-class OfficesToolbar(CMSToolbar):
+class LabMembersToolbar(CMSToolbar):
 
     def populate(self):
         admin_menu = self.toolbar.get_or_create_menu(
