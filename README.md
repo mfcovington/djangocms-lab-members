@@ -20,13 +20,6 @@ CMS Lab Members is A Django app to extend [django-lab-members](https://github.co
         )
         ```
 
-    - Specify your media settings, if not already specified:
-
-        ```python
-        MEDIA_URL = '/media/'
-        MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-        ```
-
     - Add `easy_thumbnail` settings: 
 
         ```python
