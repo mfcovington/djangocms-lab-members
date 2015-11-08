@@ -2,8 +2,6 @@
 
 CMS Lab Members is A Django app to extend [django-lab-members](https://github.com/mfcovington/django-lab-members) with django CMS-specific features.
 
-<!-- Detailed documentation is in the "docs" directory. -->
-
 ## Quick start
 
 - Edit the project's `settings.py` file.
