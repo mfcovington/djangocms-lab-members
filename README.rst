@@ -4,7 +4,8 @@ djangocms-lab-members
 
 ``djangocms-lab-members`` is a Django app to extend ``django-lab-members`` with django CMS-specific features.
 
-Source code is available on GitHub at `mfcovington/djangocms-lab-members <https://github.com/mfcovington/djangocms-lab-publications>`_. Information about and source code for ``django-lab-members`` is available on GitHub at `mfcovington/django-lab-members <https://github.com/mfcovington/django-lab-members>`_.
+Source code is available on GitHub at `mfcovington/djangocms-lab-members <https://github.com/mfcovington/djangocms-lab-members>`_. Information about and source code for ``django-lab-members`` is available on GitHub at `mfcovington/django-lab-members <https://github.com/mfcovington/django-lab-members>`_.
+
 
 .. contents:: :local:
 
@@ -119,7 +120,7 @@ Configuration
 Migrations
 ==========
 
-Create and perform migrations for ``cms_lab_publications`` and its dependencies:
+Create and perform migrations for ``cms_lab_members`` and its dependencies:
 
 .. code-block:: sh
 
