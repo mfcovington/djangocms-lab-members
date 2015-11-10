@@ -1,7 +1,7 @@
 Revision History
 ================
 
-0.2.0 2015-11-09
+0.2.0 2015-11-10
 
 - Add alumni fieldset to admin
 
