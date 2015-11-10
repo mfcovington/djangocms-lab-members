@@ -17,7 +17,7 @@ Installation
 
 .. code-block:: sh
 
-    pip install https://github.com/mfcovington/djangocms-lab-members/releases/download/0.1.5/djangocms-lab-members-0.1.5.tar.gz
+    pip install https://github.com/mfcovington/djangocms-lab-members/releases/download/0.2.0/djangocms-lab-members-0.2.0.tar.gz
 
 
 Configuration
@@ -145,4 +145,4 @@ Usage
 - Attach the ``Lab Members App`` under ``Advanced Settings`` for the page.
 
 
-*Version 0.1.5*
+*Version 0.2.0*
