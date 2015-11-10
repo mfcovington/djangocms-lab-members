@@ -18,13 +18,13 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 install_requires = [
     'Django>=1.7',
     'django-cms>=3.0.7',
-    'django-lab-members>=0.2.4',
+    'django-lab-members>=0.3.0',
     'djangocms-lab-publications>=0.1.3',
 ]
 
 setup(
     name='djangocms-lab-members',
-    version='0.1.5',
+    version='0.2.0',
     packages=['cms_lab_members'],
     include_package_data=True,
     license='BSD License',
