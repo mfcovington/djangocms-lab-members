@@ -13,6 +13,13 @@ Source code is available on GitHub at `mfcovington/djangocms-lab-members <https:
 Installation
 ============
 
+**PyPI**
+
+.. code-block:: sh
+
+    pip install djangocms-lab-members
+
+
 **GitHub**
 
 .. code-block:: sh
@@ -51,7 +58,7 @@ Configuration
     .. code-block:: python
 
         INSTALLED_APPS = (
-            ...
+            # ...
             'cms_lab_members',
             'cms_lab_publications',
             'easy_thumbnails',
