@@ -20,11 +20,11 @@ Installation
     pip install djangocms-lab-members
 
 
-**GitHub**
+**GitHub (development branch)**
 
 .. code-block:: sh
 
-    pip install https://github.com/mfcovington/djangocms-lab-members/releases/download/0.2.0/djangocms-lab-members-0.2.0.tar.gz
+    pip install git+http://github.com/mfcovington/djangocms-lab-members.git@develop
 
 
 Configuration
@@ -68,6 +68,7 @@ Configuration
             'taggit',
         )
 
+
   - Add ``easy_thumbnail`` settings: 
 
     .. code-block:: python
@@ -83,6 +84,7 @@ Configuration
         )
         THUMBNAIL_PRESERVE_EXTENSIONS = ('png', 'gif')
         THUMBNAIL_SUBDIR = 'versions'
+
 
   - Pre-populate placeholder content for research/personal interests and sidebar:
 
