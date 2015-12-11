@@ -150,8 +150,10 @@ Usage
 
 
 - Visit: ``http://127.0.0.1:8000/``
-- Create a CMS page.
-- Attach the ``Lab Members App`` under ``Advanced Settings`` for the page.
+- Create a CMS page and then:
+
+  - Attach the ``Lab Members App`` under ``Advanced Settings`` for the page, **OR**
+  - Insert the ``Scientist Plugin`` into a placeholder field.
 
 
 *Version 0.2.0*
