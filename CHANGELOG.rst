@@ -5,7 +5,7 @@ Revision History
 
 - Add alumni fieldset to admin
 
-  - This bumps ``djangocms-lab-members`` requirement to version ``0.3.0``
+  - This bumps ``django-lab-members`` requirement to version ``0.3.0``
 
 - Add instructions to double-click placeholders when editing
 - Update README with more complete and accurate instructions
